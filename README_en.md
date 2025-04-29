@@ -59,3 +59,5 @@ This project demonstrates that even with a basic local network setup, it is poss
 ## 📚 Authors
 - Adrian ARJOCA (CPI-1-27-A Sup de Vinci Paris)
     - aka Ardox
+- Clément VAN KERCKVOORDE
+  - aka [t3mq](https://github.com/t3mq)
