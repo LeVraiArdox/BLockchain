@@ -1,11 +1,14 @@
 // AUTHOR: Ardox
 
+const hre = require("hardhat");
+
 async function main() {
-  const SimpleStorage = await ethers.getContractFactory("SimpleStorage");
+  const SimpleStorage = await hre.ethers.getContractFactory("SimpleStorage");
   const contract = await SimpleStorage.deploy();
 
-  await contract.deployed();
-  console.log(`✅ Contract deployed at: ${contract.address}`);
+  await contract.waitForDeployment();
+
+  console.log(`✅ Contract deployed at: ${contract.target}`);
 }
 
 main().catch((error) => {
