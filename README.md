@@ -60,3 +60,5 @@ Ce projet montre que même avec une infrastructure réseau simple, il est possib
 
 - Adrian ARJOCA (CPI-1-27-A Sup de Vinci Paris)
   - aka Ardox
+- Clément VAN KERCKVOORDE
+  - aka [t3mq](https://github.com/t3mq)
