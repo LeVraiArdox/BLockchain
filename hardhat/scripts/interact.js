@@ -9,9 +9,12 @@ async function main() {
     "function get() view returns (uint)"
   ];
 
-  const provider = new ethers.providers.JsonRpcProvider("http://192.168.1.42:8545");
-  const signer = provider.getSigner(0);
-  const contract = new ethers.Contract(contractAddress, abi, signer);
+  const provider = new ethers.JsonRpcProvider("http://192.168.1.2:8545");
+  
+  const privatekey = "LOCAL_PRIVATEKEY";
+  const wallet = new ethers.Wallet(privatekey, provider)
+  
+  const contract = new ethers.Contract(contractAddress, abi, wallet);
 
   console.log("Setting value to 42...");
   const tx = await contract.set(42);
