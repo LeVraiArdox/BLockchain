@@ -25,6 +25,8 @@ Deux réseaux locaux connectés via un routeur. Chaque PC héberge un nœud comp
 - **Outils** : Hardhat, Node.js
 - **Infrastructure** : 2 PC, 1 routeur, 2 switches
 
+![20250430_101205](https://github.com/user-attachments/assets/43fae834-c96b-4132-82a1-f6dac34c1765)
+
 ---
 
 ## 🧪 Mise en place
