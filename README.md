@@ -4,6 +4,8 @@ Le projet d'étude qui nous a été attribué est: L'impact de la blockchain dan
 
 Ceci est une partie de notre projet de fin d'études. Il vise à illustrer concrètement le fonctionnement d'une blockchain privée à travers le déploiement de nœuds sur un réseau local simulé avec deux PC, deux routeurs et deux switches. Un **smart contract** a également été développé et déployé pour montrer l'interaction possible entre les nœuds.
 
+Le document complet du projet est [celui-ci](./CPI1-27-A_ARJOCA_VAN-KERCKVOORDE.pdf).
+
 ---
 
 ## 📐 Schéma du Réseau

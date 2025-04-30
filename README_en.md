@@ -1,7 +1,11 @@
 # 🧱 Student Project – Local Network Blockchain Demonstration
 
-The assigned study project is: The impact of blockchain in finance, electronic voting, and traceability.
+Our assigned study project is: The impact of blockchain in finance, electronic voting, and traceability.
+
 This is part of our final year project. It aims to concretely illustrate the functioning of a private blockchain through the deployment of nodes on a simulated local network with two PCs, two routers, and two switches. A **smart contract** was also developed and deployed to show the possible interaction between the nodes.
+
+The full project document is [this one](./CPI1-27-A_ARJOCA_VAN-KERCKVOORDE.pdf).
+
 ---
 
 ## 📐 Network Diagram
