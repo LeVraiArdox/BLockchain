@@ -1,7 +1,7 @@
 # 🧱 Student Project – Local Network Blockchain Demonstration
 
-This project aims to demonstrate the core principles of a private blockchain by deploying two blockchain nodes across a simulated local network using two PCs, one router, and two switches. A **smart contract** was also developed and deployed to showcase interaction between the nodes.
-
+The assigned study project is: The impact of blockchain in finance, electronic voting, and traceability.
+This is part of our final year project. It aims to concretely illustrate the functioning of a private blockchain through the deployment of nodes on a simulated local network with two PCs, two routers, and two switches. A **smart contract** was also developed and deployed to show the possible interaction between the nodes.
 ---
 
 ## 📐 Network Diagram
@@ -14,42 +14,19 @@ Two local networks are connected via a single router. Each PC hosts a full block
 
 ## ⚙️ Tech Stack
 
-- **Blockchain**: Ethereum (Ganache or Geth)
+- **Blockchain**: Ethereum (Ganache)
 - **Smart Contract Language**: Solidity
-- **Tools**: Hardhat / Truffle, Node.js
+- **Tools**: Hardhat, Node.js
 - **Infrastructure**: 2 PCs, 1 router, 2 switches
 
 ---
 
 ## 🧪 Demonstration Steps
 
-1. Start both blockchain nodes.
-2. Establish the network connection between them.
-3. Deploy the smart contract from PC1.
-4. Interact with the contract from PC2 (read/write operations).
-
-![Demo Contract](./images/demo_contract.png)
+> ![IMPORTANT]
+> See `INSTRUCTIONS.md` for detailed steps on setting up the environment.
 
 ---
-
-## 📄 Smart Contract Example
-
-```solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-
-contract SimpleStorage {
-    uint public data;
-
-    function set(uint _data) public {
-        data = _data;
-    }
-
-    function get() public view returns (uint) {
-        return data;
-    }
-}
-```
 
 ## 🧠 Conclusion
 This project demonstrates that even with a basic local network setup, it is possible to simulate a fully functional and secure private blockchain. The smart contract showcases blockchain’s strengths in transparency and trust.
@@ -58,6 +35,6 @@ This project demonstrates that even with a basic local network setup, it is poss
 
 ## 📚 Authors
 - Adrian ARJOCA (CPI-1-27-A Sup de Vinci Paris)
-    - aka Ardox
+  - aka [Ardox](https://github.com/levraiardox)
 - Clément VAN KERCKVOORDE
   - aka [t3mq](https://github.com/t3mq)

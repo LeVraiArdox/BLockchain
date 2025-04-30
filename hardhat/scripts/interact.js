@@ -9,9 +9,9 @@ async function main() {
     "function get() view returns (uint)"
   ];
 
-  const provider = new ethers.JsonRpcProvider("http://192.168.1.2:8545");
+  const provider = new ethers.JsonRpcProvider("http://192.168.0.2:8545");
   
-  const privatekey = "LOCAL_PRIVATEKEY";
+  const privatekey = "LOCAL_PRIVATEKEY"; // Key of the account that deployed the contract
   const wallet = new ethers.Wallet(privatekey, provider)
   
   const contract = new ethers.Contract(contractAddress, abi, wallet);
