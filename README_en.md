@@ -23,7 +23,7 @@ Two local networks are connected via a single router. Each PC hosts a full block
 
 ## 🧪 Demonstration Steps
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > See `INSTRUCTIONS.md` for detailed steps on setting up the environment.
 
 ---

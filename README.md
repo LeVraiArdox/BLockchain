@@ -27,7 +27,7 @@ Deux réseaux locaux connectés via un routeur. Chaque PC héberge un nœud comp
 
 ## 🧪 Mise en place
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Voir `INSTRUCTIONS.md` pour les étapes détaillées de la mise en place de l'environnement.
 
 ---
